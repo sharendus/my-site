@@ -2,47 +2,80 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио Junior верстальщика</title>
   </head>
+
   <body>
     <header class="page-header">
-      <div class="container">sharendo.lyuba@mail.ru +375336831806</div>
+      <div class="container">
+        <a class="header-email" href="mailto:sharendo.lyuba@mail.ru">sharendo.lyuba@mail.ru</a>
+        <a class="header-phone" href="tel:+375336831806">+375 33 683 18 06</a>
+      </div>
     </header>
 
     <section class="hero-image">
       <div class="container">
-        <h1 class="heading">Опознанный Енот</h1>
-        <p>Junior верстальщик</p>
+        <h1 class="heading">Лювовь</h1>
+        <p>Привет!<br>Меня зовут</p>
       </div>
     </section>
 
     <section class="intro">
       <div class="container">
         <h2 class="subheading">Давайте познакомимся</h2>
-        <h3>Пара слов о себе</h3>
-        <p>Текст с парой слов о себе.</p>
-        <h3>Чем могу быть полезен</h3>
-        <p>Текст о том, чем могу быть полезен.</p>
+        <figure class="user-image">
+          <img src="files/userr.jpg" width="928" height="536" alt="Фотография">
+        </figure>
+        <div>
+          <h3>Пара слов обо мне</h3>
+          <p>Ох... Парой слов тут не обойтись :)</p>
+        </div>
+        <div class="skills">
+          <h3>Мои навыки</h3>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level"><div style="width: 70%;">70%</div></dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level"><div style="width: 75%;">75%</div></dd>
+            <dt class="skill-js">JS</dt>
+            <dd class="level"><div style="width: 15%;">15%</div></dd>
+          </dl>
+        </div>
       </div>
     </section>
 
     <section class="portfolio">
       <div class="container">
         <h2 class="subheading">Мои работы</h2>
-
-        <h3>Магазин товаров для дома</h3>
-        <p>Мой первый сайт.</p>
-
-        <h3>Блог начинающего верстальщика</h3>
-        <p>Статический блог про обучение HTML и CSS.</p>
+        <ul class="projects">
+          <li>
+            <figure class="project-image">
+              <img src="files/project_sedona.jpg" width="928" height="536" alt="Сайт поиска жилья в городе Седона, штат Аризона">
+            </figure>
+            <h3>Сайт поиска жилья в городе Седона, штат Аризона.</h3>
+            <p>Личный проект на курсе "HTML и CSS. Уровень 1" от HTML Academy.</p>
+            <a class="button" href="https://sharendus.github.io/1774823-sedona-31/">Открыть страницу</a>
+          </li>
+          <li>
+            <figure class="project-image">
+              <img src="files/project_cat-energy.jpg" width="928" height="536" alt="Магазин правильного питания для вашего котика">
+            </figure>
+            <h3>Магазин правильного питания для вашего котика.</h3>
+            <p>Личный проект на курсе "HTML и CSS. Уровень 2" от HTML Academy.</p>
+            <a class="button" href="source/project/index.html">Открыть страницу</a>
+          </li>
+        </ul>
       </div>
     </section>
 
     <footer class="page-footer">
-      <div class="container">sharendo.lyuba@mail.ru +375336831806</div>
+      <div class="container">
+        <a class="footer-email" href="mailto:enot_neopoznanniy@gmail.com">enot_neopoznanniy@gmail.com</a>
+        <a class="footer-phone" href="tel:+79876543210">+7 987 654 32 10</a>
+      </div>
     </footer>
   </body>
 </html>
-
