@@ -83,28 +83,20 @@ body {
 
 .header-email,
 .footer-email {
-  padding-left: 28px;
+  padding-left: 30px;
   background-image: url("img/icon-email.svg");
-}
-
-.header-email:focus,
-.header-email:hover,
-.footer-email:focus,
-.footer-email:hover {
-  background-image: url("img/icon-email-alt.svg");
 }
 
 .header-phone,
 .footer-phone {
-  padding-left: 21px;
+  padding-left: 30px;
   background-image: url("img/icon-phone.svg");
 }
 
-.header-phone:focus,
-.header-phone:hover,
-.footer-phone:focus,
-.footer-phone:hover {
-  background-image: url("img/icon-phone-alt.svg");
+.header-gh,
+.footer-gh {
+  padding-left: 30px;
+  background-image: url("img/icon-gh.svg");
 }
 
 .page-header a:active,
